@@ -18,8 +18,10 @@ html {
 }
 
 body {
-	background: $white;
-  font: 18px/1.4 $helvetica;
+  background-color: #fbfbfb;
+  color: #333;
+  font-family: monospace;
+  font-weight: bold;
   color: $darkGray;
 }
 
@@ -31,7 +33,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
+  font-family: monospace;
+  font-weight: bold;
   color: $darkerGray;
   font-weight: bold;
 
