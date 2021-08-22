@@ -1,3 +1,4 @@
 
-# Privacy and Security related blog
+# Repository for my Security/Technology/Privacy related blog.
+
 
