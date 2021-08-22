@@ -3,7 +3,6 @@ layout: post
 title:  "THM - Agent Sudo Write Up"
 ---
 
-## Agent Sudo - Write UP
 
 ### Enumaration
 
@@ -15,7 +14,8 @@ We now know the answer to the first question -
 
 Q: How many ports are open? A: 3
 
-In addition, from the nmap scan we can now see that the server is running a http service(website). On naviagtion to http://[machineIP]:80 we see the following - ![image-20210821094751547](/assets/thm-agent-wu/image-20210821094751547.png)
+In addition, from the nmap scan we can now see that the server is running a http service(website). On naviagtion to http://[machineIP]:80 we see the following - 
+![image-20210821094751547](/assets/thm-agent-wu/image-20210821094751547.png)
 
 As seen in the screenshot about to properly access the site we need to set our user agent to our code name.
 
@@ -51,7 +51,8 @@ Q: What is the FTP password? A: crystal.
 
 "-l" this lowercase l specifies that we only want to use one username, the capital -P specifies that we want to attemp multiple passwords from the file we choose.
 
-Now we can connect to the ftp server. Ftp -p [ip] [port] - ftp -p 10.10.224.138 21. Once we are connected we will see the following - ![image-20210821122744945](/assets/thm-agent-wu/image-20210821122744945.png)
+Now we can connect to the ftp server. Ftp -p [ip] [port] - ftp -p 10.10.224.138 21. Once we are connected we will see the following - 
+![image-20210821122744945](/assets/thm-agent-wu/image-20210821122744945.png)
 
 Now I will use the get command to make a local copy of each file to perform fruther analyis. If we print the txt file we will see the following -
 
