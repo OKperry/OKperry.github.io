@@ -6,7 +6,7 @@ title:  "THM - Agent Sudo Write Up"
 
 ### Enumaration
 
-In this first stage we will scan the server for any open ports. This allows us to find vulnrabale services that can be later exploited. I will use the command - nmap -sV -p- [MACHINE IP], this gives us a scan of the common ports (-p-) as well as the more information of the servers running on them ports (-sV). This is our result
+In this first stage we will scan the server for any open ports. This allows us to find vulnrabale services that can be later exploited. I will use the command - nmap -sV -p- [MACHINE IP], this gives us a scan of the common ports (-p-) as well as information about the services running  (-sV). This is our result
 
 ![image-20210821092835904](/assets/thm-agent-wu/image-20210821092835904.png)
 
@@ -17,7 +17,7 @@ Q: How many ports are open? A: 3
 In addition, from the nmap scan we can now see that the server is running a http service(website). On naviagtion to http://[machineIP]:80 we see the following - 
 ![image-20210821094751547](/assets/thm-agent-wu/image-20210821094751547.png)
 
-As seen in the screenshot about to properly access the site we need to set our user agent to our code name.
+As seen in the screenshot to properly access the site we need to set our user agent to our code name.
 
 Q: How do you redirect yourself to a secret page? A: user-agent
 
@@ -54,7 +54,7 @@ Q: What is the FTP password? A: crystal.
 Now we can connect to the ftp server. Ftp -p [ip] [port] - ftp -p 10.10.224.138 21. Once we are connected we will see the following - 
 ![image-20210821122744945](/assets/thm-agent-wu/image-20210821122744945.png)
 
-Now I will use the get command to make a local copy of each file to perform fruther analyis. If we print the txt file we will see the following -
+Now I will use the "get" command to make a local copy of each file to perform further analyis. If we print the txt file we will see the following -
 
 ![image-20210821123249537](/assets/thm-agent-wu/image-20210821123249537.png)
 
