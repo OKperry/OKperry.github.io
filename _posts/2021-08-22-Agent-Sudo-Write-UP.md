@@ -114,7 +114,7 @@ And just like that we have gained root access and can now get the root flag.
 
 ### Evaluation
 
-This CTF did a good job at demonstrating that security through obscurity can still be vulnerable. It did a good job at showing the importance of using secure and recognized protocols for communication instead of making your own bootleg communication systems via weird HTTP websites(doubt many people do this). The implementation ofsteganography made the CTF slighltly more interesting. Overall, this CTF did a good job of demonstrating some basic pentesting techniques with a tiny bit of hand holding. 
+This CTF did a good job at demonstrating that security through obscurity can still be vulnerable. Aptly, showing the importance of using secure and recognized protocols for communication instead of making your own bootleg communication systems via weird HTTP websites(doubt many people do this). The implementation ofsteganography made the CTF slighltly more interesting. Overall, this CTF did a good job of demonstrating some basic pentesting techniques. 
 
 
 
