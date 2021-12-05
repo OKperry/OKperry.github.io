@@ -3,12 +3,13 @@ layout: page
 title: About
 permalink: /about/
 ---
+IT student. Interested in a career in cyber security related stuff. This blog will be posts about random topics I find interesting or CTF things. 
 
-Some information about you!
+Some inspirations-
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+Podcasts - Darknet Diares, Lex Fridman Podcast, Jordan Harbinger Show.
+Books - Crime dot net, amusing ourselves to death, sandworm.
+Learning - TryHackMe, HackTheBox, Immersive Labs.
 
 ### Contact me
 
